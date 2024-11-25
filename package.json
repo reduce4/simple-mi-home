@@ -1,0 +1,33 @@
+{
+  "name": "simple-mi-home",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "chalk": "^5.3.0",
+    "date-fns": "^4.1.0",
+    "express": "^4.21.1",
+    "ini": "^5.0.0",
+    "jsonfile": "^6.1.0",
+    "perf_hooks": "^0.0.1",
+    "querystring": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^5.0.0",
+    "@types/ini": "^4.1.1",
+    "@types/jsonfile": "^6.1.4",
+    "@typescript-eslint/parser": "^6.0.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
